@@ -41,6 +41,7 @@ export default function Page2(){
         <SimpleGrid p='2rem'>
               <TableContainer>
                 <Table size='sm'>
+                    
                     <Thead >
                     <Tr    >
                         <Th>Image</Th>

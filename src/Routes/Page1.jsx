@@ -65,13 +65,16 @@ export default function Home(){
     
 
     return (
+
         <Flex gap='2rem' h='30rem' justifyContent='center'  alignItems='center'>
        
             <Button _hover='none' bgColor='green' onClick={handlefetch}>Fetch Users</Button>
       
      
+
             <Button _hover='none' bgColor='red' onClick={handleDelete}>Delete Users</Button>
    
+
             <Link to='/user'>
             <Button _hover='none' bgColor='yellow'>User Details</Button>
             </Link>

@@ -10,7 +10,6 @@ export default function AllRoutes(){
     return(
         <Routes>
             <Route path='/' element={<Home/>}/>
-            
             <Route path='/user' element={<Page2/>}/>
 
         </Routes>
